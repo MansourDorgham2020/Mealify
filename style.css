@@ -1,0 +1,333 @@
+.navbar {
+  background-color:#ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar .Mealify a {
+  text-decoration: none;
+  color:black;
+}
+.ul ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.ul ul li a {
+  text-decoration: none;
+  color:black;
+}
+span {
+  color: #ce1212;
+}
+.header{
+  background-color: #eeeeee;
+}
+.container {
+  background-color: #eeeeee;
+  /* width: 90%; */
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  width: 40%;
+  margin: auto;
+}
+.text h2{
+  font-size: 65px;
+  font-family: "Amatic SC", sans-serif;
+}
+.text #button1{
+  background-color: brown;
+  padding: 10px 30px;
+  border-radius: 0px 50px 50px 50px;
+  color: white;
+  margin-right: 25px;
+}
+.text a{
+  text-decoration: none;
+  color:black;
+}
+.text a i{
+  color: #ce1212;
+}
+.picture img {
+  width: 100%;
+  filter: drop-shadow(4px 4px 9px #000a);  
+}
+.picture {
+  animation: picture 0.5s infinite alternate;
+}
+
+@keyframes picture {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(20px);
+  }
+  
+}
+.CHEFS {
+  width: 100%;
+  /* height: 120vh; */
+  /* background-color: aqua; */
+  text-align: center;
+  /* display: flex; */
+}
+.CHEFS .tixt h2 {
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+}
+.CHEFS .contenar2 p{
+  font-style: italic;
+}
+.CHEFS .CHEFS-img p {
+  text-align: center;
+}
+.CHEFS .tixt h2 span {
+  color: red;
+}
+.CHEFS .CHEFS-img {
+  width: 33.3%;
+  text-align: center;
+  margin: 25px;
+  transition: width;
+  transition-duration: 1.5s;
+  /* transition: opacity 2s; */
+  overflow: hidden;
+  transition: transform 1s;
+  position: relative;
+}
+.photo {
+  width: 100%;
+}
+
+.CHEFS .CHEFS-img .photo img {
+  width: 100%;
+  /* position: ; */
+  /* background-color: chartreuse; */
+}
+.CHEFS .contenar2 {
+  display: flex;
+}
+.CHEFS-img:hover {
+ transform: scale(1.1);
+}
+ .lol{
+  position: absolute;
+  /* width: 20%; */
+  /* transform: translateX(100%); */
+  /* transition: transform 1s; */
+  background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 50px;
+    height: 150px;
+    border-radius: 12px;
+    top: 60px;
+    right:0 ;
+    bottom: 100px;
+    opacity: 0;
+    transition: 1s 1s ease-out;
+    overflow: hidden; 
+}
+
+
+.CHEFS-img:hover .lol{
+  opacity: 1;
+  
+} 
+
+#hov-3:hover{
+  background-color: rgb(223, 20, 20);
+  /* color: #ffffff; */
+  border-radius: 100%;
+}
+
+.CHEFS-img:hover .icon33 {
+  
+ transform: translateX(0);
+
+}
+.section-3{
+   
+  background-color: whitesmoke;    
+      text-align: center;
+      padding: 10px 0;
+  }
+  .section-3 #h-2{
+      margin-bottom: 10px;
+      font-family: "Amatic SC", sans-serif;
+      font-size: xx-large;
+  }
+  #h-2-1{
+      color: red;
+  }
+  .container-16{
+      display: flex;
+  }
+  .con-1{
+      /* background-color: aliceblue ; */
+      width: 60%;
+      margin-left: 50px;
+      
+  }
+  .con2{
+      /* background-color: teal; */
+      width: 60%;
+  }
+  .item-3{
+      width: 75%;
+      position: relative;
+      overflow: hidden;
+      /* background-color: bisque; */
+      
+  }
+  .item-3 img{
+      width: 100%;
+  }
+  .cap-5{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.7);
+      transform: translateY(100%);
+      transition: transform 0.5s;
+      color: aliceblue;
+      text-align: center;
+      font-size: large;
+      justify-content: center;
+      align-items: center;
+      font-family: "Inter", sans-serif;
+  
+      
+  }
+  
+  .cap-5 p{
+      color: aliceblue;
+  }
+  #pizza1{
+      gap: 35px;
+  }
+  #c30{
+      gap: 50px;
+  }
+  #beef{
+      gap: 50px;
+  }
+  #Frittate{
+      gap: 40px;
+  }
+  #Burger{
+      gap: 35px;
+
+  }
+  .item-3:hover .cap-5{
+      transform: translateY(0);
+  }
+  .con3{
+      width: 60%;
+  }
+
+.section .title2 {
+  text-align: center;
+  font-family: "Amatic SC", sans-serif;
+  font-size: x-large;
+}
+.photo img {
+  width: 100%;
+}
+.list {
+  /* background-color: tomato; */
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-flow: row; */
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+.item-5{
+  width: 45%;
+  display: flex;
+}
+.cap0{
+  margin-left: 20px;
+}
+.item-5 img{
+  width: 50px;
+  height: 50px;
+}
+#mans10{
+width: 50px;
+height: 50px;
+background-color:brown;
+border-radius: 25px;
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: row;
+  padding: 25px 0px;
+}
+.sec {
+  background-color:#ffffff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: auto;
+}
+#name {
+  width: 50%;
+  padding: 15px;
+  margin-right: 15px;
+}
+#email {
+  width: 50%;
+  padding:15px;
+}
+#man {
+  padding: 15px 40px;
+  background-color: #ce1212;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 40px;
+  color: white;
+}
+#subject {
+  padding: 15px;
+  margin-bottom: 25px;
+}
+#message{
+  padding: 25px;
+}
+#N-1{
+  background-color: #f5f5f5;
+  margin-bottom: 15px;
+}
+#N-2{
+  background-color: #f5f5f5;
+  margin-bottom: 15px;
+}
+#N-3{
+  background-color: #f5f5f5;
+  
+}
+#N-4{
+  background-color: #f5f5f5;
+}
+
+
+
